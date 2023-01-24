@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: rgb(70, 218, 191, 0.7);
+    /* background-image: url(images/library.png); */
+}
+
+.navbar {
+    border: 2px yellow solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-options{
+    justify-content: space-between;
+
+}
+
+#logo {
+    border: 2px green solid;
+    width: 10em;
+}
+
+section{
+    border: 2px blueviolet solid;
+    background: rgba(224, 224, 224, 0.75); 
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.events {
+    display: flex;
+}
+
+footer {
+    border: 2px orange solid;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.social-media-logos{
+    width: 2.5em;
+    padding: .3em;
+}

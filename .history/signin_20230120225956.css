@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.back-img-3{
+    background: url("images/SignIn-Background.png");
+}

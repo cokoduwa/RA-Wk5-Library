@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color:rgba(70,218,191,0.7);
+    background-image: url("images/SignIn-Background.png");
+
+} */
+
+.back-color{
+    background:rgba(70,218,191,0.7);
+    position: relative; 
+    width: 1440px;
+    height: 1048px;
+    /* background-size: contain; */
+} 
+
+.back-img-3{
+    background: url("images/SignIn-Background.png");
+    position: relative;
+    width: 1440px;
+    height: 1048px;
+    background-size: contain;
+
+}
+
+.container {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 120px;
+    top: 112px;
+    background: rgba(224, 224, 224, 0.75);
+    border-radius: 60px;
+
+}
+
+#logo {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: -84px;
+    top: -42px;
+    background: url("images/BPLcanvaLogo.jpeg");
+    border: 4px solid rgba(70, 218, 191, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}

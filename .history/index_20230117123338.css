@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background: rgb(70, 218, 191, 0.7);
+}
+
+main {
+    /* background-image: url(images/library.png);
+    opacity: 0.3;
+    background-repeat: no-repeat; */
+}
+
+nav {
+    border: 2px yellow solid;
+}
+
+.menu-options{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    border: 2px green solid;
+    width: 10em;
+}
+
+section{
+    border: 2px blueviolet solid;
+    background: rgba(224, 224, 224, 0.75); 
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.intro {
+    text-align: center;
+}
+
+.info {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+li {
+    list-style: none;
+}
+
+#info{
+    text-align: center;
+}
+
+.hours, .address {
+    border: 2px slateblue solid;
+}
+
+.events h2, .events p {
+    text-align: center;
+    
+}
+
+.event-types{
+    display: flex;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.child, .adult {
+    border: 2px palevioletred solid;
+}
+
+footer {
+    border: 2px orange solid;
+    text-align: center;
+}
+
+.social-media-logos{
+    width: 2.5em;
+    padding: .3em;
+}

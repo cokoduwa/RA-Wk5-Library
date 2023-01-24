@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: url("images/SignIn-Background.png"), rgba(70,218,191,0.7);
+    position: relative;
+    width: 1440px;
+    height: 1048px;
+}

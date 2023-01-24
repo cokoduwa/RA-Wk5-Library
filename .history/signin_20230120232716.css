@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color:rgba(70,218,191,0.7);
+    background-image: url("images/SignIn-Background.png");
+
+} */
+
+.back-color{
+    background:rgba(70,218,191,0.7);
+    position: relative; 
+    width: 1440px;
+    height: 1048px;
+    /* background-size: contain; */
+} 
+
+.back-img-3{
+    background: url("images/SignIn-Background.png");
+    position: relative;
+    width: 1440px;
+    height: 1048px;
+    background-size: contain;
+
+}
+
+.container {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 120px;
+    top: 112px;
+    background: rgba(224, 224, 224, 0.75);
+    border-radius: 60px;
+
+}
+

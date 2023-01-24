@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial Rounded MT Bold';
+}
+
+.back-color{
+    background:rgba(70,218,191,0.7);
+    position: relative; 
+    width: 1440px;
+    height: 1048px;
+} 
+
+.back-img-3{
+    background: url("images/SignIn-Background.png");
+    position: relative;
+    width: 1440px;
+    height: 1048px;
+    background-size: contain;
+
+}
+
+.container {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 120px;
+    top: 112px;
+    background: rgba(224, 224, 224, 0.75);
+    border-radius: 60px;
+
+}
+
+#logo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: -84px;
+    top: -42px;
+    background: url("images/BPLcanvaLogo.jpeg");
+    border: 4px solid rgba(70, 218, 191, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.menu-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    position: absolute;
+    width: 1262px;
+    height: 51.97px;
+    left: calc(50% - 1262px/2);
+    top: 30px;
+    opacity: 0.9;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 700px;
+    height: 342px;
+    left: 370px;
+    top: 138px;
+
+}
+
+#message{
+    width: 425px;
+    height: 46px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #4E4D4D;
+
+}
+
+#email, #password {
+    width: 600px;
+    height: 80px;
+    background: #4E4D4D;
+    opacity: 0.4;
+    border-radius: 40px;
+    
+}
+
+label{
+    width: 176px;
+    height: 28px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.member {
+    position: absolute;
+    width: 380px;
+    height: 28px;
+    left: 530px;
+    top: 872px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #4E4D4D;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 600px;
+    height: 228px;
+    left: 420px;
+    top: 548px;
+}
+
+#sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 20px;
+    width: 600px;
+    height: 80px;
+    background: rgba(70, 218, 191, 0.75);
+    border: 3px solid #4E4D4D;
+    border-radius: 40px;
+
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    color: #4E4D4D;
+
+}
+
+
+.socials {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px 224px;
+    gap: 36px;
+
+    width: 600px;
+    height: 80px;
+
+    border: 3px solid #4E4D4D;
+    border-radius: 40px;
+}
+
+footer {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 330.24px;
+    height: 98px;
+    left: calc(50% - 330.24px/2 - 0.5px);
+    bottom: 7px;
+}
