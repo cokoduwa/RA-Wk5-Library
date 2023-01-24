@@ -2,18 +2,18 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
-
+    overflow-x: hidden;
 }
 
 body {
     color: #4E4D4D;
     font-family: 'Arial Rounded MT Bold';
-    width: 100%;
 }
 
 .back-color {
     background-color: rgb(70, 218, 191, 0.7);
+    /* width:100%;
+    height: 100%; */
 }
 
 /****** Navigation Bar/Menu and Footer for all pages ******/
@@ -37,7 +37,13 @@ nav a {
     padding: 6px;
 }
 
-
+#logo {
+    border: 2px green solid;
+    /* width: 10em; */
+    border-radius: 30px;
+    border: 4px solid #46DABF;
+    margin: 10em 3em -7em 1em;
+}
 
 footer {
     text-align: center;
@@ -57,15 +63,8 @@ footer {
 }
 
 .sections {
-    width: 90%;
-    margin: 0 auto;
+    /* width: 100%; */
 
-}
-
-.card {
-    background-color: rgba(224, 224, 224, 0.75) ;
-    position: relative;
-    border-radius: 30px;
 }
 
 /* Media Queries*/
@@ -77,54 +76,31 @@ footer {
 /****** Homepage CSS ******/
 
 .back-img-1 {
+    width:100%;
     height: 100%;
     background-position: center;
     background-size: contain;
     background-image: url("images/library.png");
-    
+}
+
+section {
+    background: rgba(224, 224, 224, 0.75); 
+    width: 90%;
+    /* height: 800px; */
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .intro {
     text-align: center;
-    padding: 40px;
-    margin: 10px auto;
 }
 
-.intro p {
-    padding: 10px auto;
-    font-size: 12px;
-}
-
-.intro h3 {
-    font-size: 14px;
-}
-
-.intro button {
-    font-size: 12px;
-    padding: 6px;
-    margin: 10px auto;
-}
-
-.intro-img {
+.intro img {
+    width: 600px;
+    height: 400px;
     border-radius: 30px;
     border: 4px solid #46DABF;
-    width: 60%;
-}
-
-#logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
-    border: 4px solid #46DABF;
-    padding: 10px;
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    background-color: white;
-}
-
-#logo img {
-    width: 100%;
 }
 
 .info {
@@ -254,23 +230,6 @@ li {
         font-size: 14px;
     }
 
-    .intro p {
-        font-size: 16px;
-    }
-    
-    .intro h3 {
-        font-size: 18px;
-    }
-
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    .intro p {
-        font-size: 14px;
-    }
-    
-    .intro h3 {
-        font-size: 26px;
-    }
-}
+/* @media only screen and (min-width: 992px) {...} */

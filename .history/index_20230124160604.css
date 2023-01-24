@@ -9,7 +9,6 @@
 body {
     color: #4E4D4D;
     font-family: 'Arial Rounded MT Bold';
-    width: 100%;
 }
 
 .back-color {
@@ -86,7 +85,7 @@ footer {
 
 .intro {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     margin: 10px auto;
 }
 
@@ -254,23 +253,6 @@ li {
         font-size: 14px;
     }
 
-    .intro p {
-        font-size: 16px;
-    }
-    
-    .intro h3 {
-        font-size: 18px;
-    }
-
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    .intro p {
-        font-size: 14px;
-    }
-    
-    .intro h3 {
-        font-size: 26px;
-    }
-}
+/* @media only screen and (min-width: 992px) {...} */

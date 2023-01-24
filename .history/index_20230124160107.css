@@ -2,14 +2,13 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 
 }
 
 body {
     color: #4E4D4D;
     font-family: 'Arial Rounded MT Bold';
-    width: 100%;
 }
 
 .back-color {
@@ -77,6 +76,7 @@ footer {
 /****** Homepage CSS ******/
 
 .back-img-1 {
+    /* width:100%; */
     height: 100%;
     background-position: center;
     background-size: contain;
@@ -86,7 +86,7 @@ footer {
 
 .intro {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     margin: 10px auto;
 }
 
@@ -118,13 +118,12 @@ footer {
     border: 4px solid #46DABF;
     padding: 10px;
     position: absolute;
-    top: -15px;
-    left: -15px;
-    background-color: white;
+    top: -20px;
+    left: -20px;
 }
 
 #logo img {
-    width: 100%;
+    width: 100;
 }
 
 .info {
@@ -254,23 +253,6 @@ li {
         font-size: 14px;
     }
 
-    .intro p {
-        font-size: 16px;
-    }
-    
-    .intro h3 {
-        font-size: 18px;
-    }
-
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    .intro p {
-        font-size: 14px;
-    }
-    
-    .intro h3 {
-        font-size: 26px;
-    }
-}
+/* @media only screen and (min-width: 992px) {...} */
