@@ -79,10 +79,8 @@ nav a {
 
 .intro button {
     font-size: 12px;
-    padding: 10px;
+    padding: 6px;
     margin: 10px auto;
-    background-color: rgb(70, 218, 191, 0.6);
-    border-radius: 5px;
 }
 
 .intro-img {
@@ -151,12 +149,10 @@ li {
     margin: 10px auto;
 }
 
-#info button {
+.donate button {
     font-size: 12px;
-    padding: 10px;
+    padding: 6px;
     margin: 10px auto;
-    background-color: rgb(70, 218, 191, 0.6);
-    border-radius: 5px;
 }
 
 

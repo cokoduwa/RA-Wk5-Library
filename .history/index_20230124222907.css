@@ -79,10 +79,8 @@ nav a {
 
 .intro button {
     font-size: 12px;
-    padding: 10px;
+    padding: 6px;
     margin: 10px auto;
-    background-color: rgb(70, 218, 191, 0.6);
-    border-radius: 5px;
 }
 
 .intro-img {
@@ -123,9 +121,8 @@ nav a {
     font-size: 12px;
 }
 
-#info h2 {
-    font-size: 18px;
-    padding-top: 10px;
+.info h2 {
+    font-size: 12px;
 }
 
 .info h3 {
@@ -141,22 +138,8 @@ li {
 
 }
 
-.donate {
-    margin: 10px auto;
-    padding: 10px auto;
-    font-size: 12px;
-}
-
-.donate p {
-    margin: 10px auto;
-}
-
-#info button {
-    font-size: 12px;
-    padding: 10px;
-    margin: 10px auto;
-    background-color: rgb(70, 218, 191, 0.6);
-    border-radius: 5px;
+.hours, .address {
+    border: 2px slateblue solid;
 }
 
 
@@ -274,11 +257,6 @@ footer {
     
     .intro h3 {
         font-size: 18px;
-    }
-
-    .donate p {
-        margin: 10px auto;
-        padding: 0 100px;
     }
 
 }

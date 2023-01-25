@@ -62,7 +62,7 @@ nav a {
 
 /****** First Section - Intro ******/
 
-.intro {
+.intro, .info {
     text-align: center;
     padding: 40px;
     margin: 10px auto;
@@ -79,10 +79,8 @@ nav a {
 
 .intro button {
     font-size: 12px;
-    padding: 10px;
+    padding: 6px;
     margin: 10px auto;
-    background-color: rgb(70, 218, 191, 0.6);
-    border-radius: 5px;
 }
 
 .intro-img {
@@ -118,45 +116,16 @@ nav a {
     text-align: center;
 }
 
-.info p, .info ul {
-    padding: 10px auto;
-    font-size: 12px;
-}
-
-#info h2 {
-    font-size: 18px;
-    padding-top: 10px;
-}
-
-.info h3 {
-    font-size: 14px;
-}
-
 li {
     list-style: none;
 }
 
 #info{
     text-align: center;
-
 }
 
-.donate {
-    margin: 10px auto;
-    padding: 10px auto;
-    font-size: 12px;
-}
-
-.donate p {
-    margin: 10px auto;
-}
-
-#info button {
-    font-size: 12px;
-    padding: 10px;
-    margin: 10px auto;
-    background-color: rgb(70, 218, 191, 0.6);
-    border-radius: 5px;
+.hours, .address {
+    border: 2px slateblue solid;
 }
 
 
@@ -274,11 +243,6 @@ footer {
     
     .intro h3 {
         font-size: 18px;
-    }
-
-    .donate p {
-        margin: 10px auto;
-        padding: 0 100px;
     }
 
 }
