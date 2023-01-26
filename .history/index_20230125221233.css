@@ -71,7 +71,6 @@ nav a {
 .intro p {
     padding: 10px auto;
     font-size: 12px;
-    line-height: 20px;
 }
 
 .intro h3 {
@@ -80,11 +79,10 @@ nav a {
 
 .intro button {
     font-size: 12px;
-    padding: 5px;
+    padding: 10px;
     margin: 10px auto;
     background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
-    border: solid 1px;
 }
 
 .intro-img {
@@ -156,11 +154,10 @@ li {
 
 #info button {
     font-size: 12px;
-    padding: 5px;
+    padding: 10px;
     margin: 10px auto;
     background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
-    border: solid 1px;
 }
 
 
@@ -175,6 +172,7 @@ li {
 .event-types{
     display: flex;
     justify-content: center;
+    /* height: 300px; */
 }
 
 .child img, .adult img {
@@ -185,21 +183,11 @@ li {
 .event-types button {
     font-size: 12px;
     padding: 5px;
+    /* margin: 10px auto; */
     background-color: rgba(224, 224, 224, 0.75);
     border-radius: 5px;
-    border: solid 1px;
 }
 
-.events h2{
-    font-size: 18px;
-    padding-top: 10px;
-}
-
-.events p {
-    padding: 10px;
-    font-size: 12px;
-    line-height: 20px;
-}
 
 /******* About Page  *****/
 
@@ -257,12 +245,6 @@ footer {
     text-align: center;
 }
 
-footer h3 {
-    font-size: 12px;
-    text-decoration: underline;
-    padding: 10px;
-}
-
 #footer {
     position: absolute;
     bottom: 0;
@@ -305,16 +287,6 @@ footer h3 {
     }
     
     .intro h3 {
-        font-size: 24px;
-    }
-
-    .donate p {
-        margin: 10px auto;
-        padding: 20px auto;
-        font-size: 14px;
-    }
-
-    .intro button, #info button, .event-types button {
-        font-size: 14px;
+        font-size: 26px;
     }
 }

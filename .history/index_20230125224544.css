@@ -313,8 +313,4 @@ footer h3 {
         padding: 20px auto;
         font-size: 14px;
     }
-
-    .intro button, #info button, .event-types button {
-        font-size: 14px;
-    }
 }

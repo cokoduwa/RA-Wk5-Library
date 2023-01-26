@@ -257,12 +257,6 @@ footer {
     text-align: center;
 }
 
-footer h3 {
-    font-size: 12px;
-    text-decoration: underline;
-    padding: 10px;
-}
-
 #footer {
     position: absolute;
     bottom: 0;
@@ -305,16 +299,6 @@ footer h3 {
     }
     
     .intro h3 {
-        font-size: 24px;
-    }
-
-    .donate p {
-        margin: 10px auto;
-        padding: 20px auto;
-        font-size: 14px;
-    }
-
-    .intro button, #info button, .event-types button {
-        font-size: 14px;
+        font-size: 26px;
     }
 }

@@ -84,7 +84,6 @@ nav a {
     margin: 10px auto;
     background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
-    border: solid 1px;
 }
 
 .intro-img {
@@ -160,7 +159,6 @@ li {
     margin: 10px auto;
     background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
-    border: solid 1px;
 }
 
 
@@ -187,7 +185,7 @@ li {
     padding: 5px;
     background-color: rgba(224, 224, 224, 0.75);
     border-radius: 5px;
-    border: solid 1px;
+    border: solid .5px;
 }
 
 .events h2{
@@ -257,12 +255,6 @@ footer {
     text-align: center;
 }
 
-footer h3 {
-    font-size: 12px;
-    text-decoration: underline;
-    padding: 10px;
-}
-
 #footer {
     position: absolute;
     bottom: 0;
@@ -305,16 +297,6 @@ footer h3 {
     }
     
     .intro h3 {
-        font-size: 24px;
-    }
-
-    .donate p {
-        margin: 10px auto;
-        padding: 20px auto;
-        font-size: 14px;
-    }
-
-    .intro button, #info button, .event-types button {
-        font-size: 14px;
+        font-size: 26px;
     }
 }
