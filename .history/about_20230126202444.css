@@ -14,11 +14,11 @@ body {
     background-color: rgb(70, 218, 191, 0.7);
 }
 
-.back-img-1 {
+.back-img-2 {
     height: 100%;
     background-position: center;
     background-size: contain;
-    background-image: url("images/library.png");
+    background-image: url("images/books-plant.png");
     
 }
 
@@ -60,23 +60,23 @@ nav a {
 
 /****** First Section - Intro ******/
 
-.intro {
+#about {
     text-align: center;
     padding: 40px;
     margin: 10px auto;
 }
 
-.intro p {
+#about p {
     padding: 10px auto;
     font-size: 12px;
     line-height: 20px;
 }
 
-.intro h3 {
+#about h2 {
     font-size: 14px;
 }
 
-.intro button {
+#about button {
     font-size: 12px;
     padding: 5px;
     margin: 10px auto;
@@ -108,108 +108,7 @@ nav a {
     width: 100%;
 }
 
-
-/****** Second Section - Info ******/
-
-.info {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 40px;
-    margin: 10px auto;
-    text-align: center;
-}
-
-.info p, .info ul {
-    padding: 10px auto;
-    font-size: 12px;
-}
-
-#info h2 {
-    font-size: 18px;
-    padding-top: 10px;
-}
-
-.info h3 {
-    font-size: 14px;
-}
-
-li {
-    list-style: none;
-}
-
-#info{
-    text-align: center;
-
-}
-
-.donate {
-    margin: 10px auto;
-    padding: 10px auto;
-    font-size: 12px;
-}
-
-.donate p {
-    margin: 10px auto;
-}
-
-#info button {
-    font-size: 12px;
-    padding: 5px;
-    margin: 10px auto;
-    background-color: rgb(70, 218, 191, 0.6);
-    border-radius: 5px;
-    border: solid 1px;
-}
-
-
-/****** Third Section - Events ******/
-
-.events {
-    text-align: center;
-    padding: 40px;
-    margin: 10px auto;
-}
-
-.event-types{
-    display: flex;
-    justify-content: center;
-}
-
-.child img, .adult img {
-    width: 100%;
-    height: 100%;
-}
-
-.event-types button {
-    font-size: 12px;
-    padding: 5px;
-    background-color: rgba(224, 224, 224, 0.75);
-    border-radius: 5px;
-    border: solid 1px;
-}
-
-.events h2{
-    font-size: 18px;
-    padding-top: 10px;
-}
-
-.events p {
-    padding: 10px;
-    font-size: 12px;
-    line-height: 20px;
-}
-
-/******* About Page  *****/
-
-.back-img-2 {
-    width:100%;
-    height: 100vh;
-    background-position: center;
-    background-size: contain;
-    background-image: url("images/books-plant.png");
-}
-
-#about {
+/* #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,41 +117,14 @@ li {
     gap: 20px;
     position: absolute;
     text-align: center;
-}
-
-/******* Catalog Page *****/
-
-
-
-
-
-/******* Create Profile Page *****/
-
-.back-img-3 {
-    background-image: url("images/SignIn-Background.png");
-    width:100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#create {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    position: absolute;
-    text-align: center;
-}
-
+} */
 
 /****** Footer for all pages ******/
 
 footer {
     text-align: center;
+    margin: 0 auto;
+    padding: 100px;
 }
 
 footer h3 {
@@ -281,38 +153,28 @@ footer h3 {
         font-size: 14px;
     }
 
-    .intro p {
+    #about p {
         font-size: 16px;
     }
     
-    .intro h3 {
+    #about h2 {
         font-size: 18px;
     }
 
-    .donate p {
-        margin: 10px auto;
-        padding: 0 100px;
-    }
-
 }
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    .intro p {
+    #about p {
         font-size: 14px;
     }
     
-    .intro h3 {
+    #about h2 {
         font-size: 24px;
     }
 
-    .donate p {
-        margin: 10px auto;
-        padding: 20px auto;
-        font-size: 14px;
-    }
-
-    .intro button, #info button, .event-types button {
+    #about button {
         font-size: 14px;
     }
 }

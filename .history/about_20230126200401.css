@@ -14,11 +14,11 @@ body {
     background-color: rgb(70, 218, 191, 0.7);
 }
 
-.back-img-1 {
+.back-img-2 {
     height: 100%;
     background-position: center;
     background-size: contain;
-    background-image: url("images/library.png");
+    background-image: url("images/books-plant.png");
     
 }
 
@@ -60,7 +60,7 @@ nav a {
 
 /****** First Section - Intro ******/
 
-.intro {
+.about {
     text-align: center;
     padding: 40px;
     margin: 10px auto;
@@ -201,15 +201,8 @@ li {
 
 /******* About Page  *****/
 
-.back-img-2 {
-    width:100%;
-    height: 100vh;
-    background-position: center;
-    background-size: contain;
-    background-image: url("images/books-plant.png");
-}
 
-#about {
+/* #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,36 +211,7 @@ li {
     gap: 20px;
     position: absolute;
     text-align: center;
-}
-
-/******* Catalog Page *****/
-
-
-
-
-
-/******* Create Profile Page *****/
-
-.back-img-3 {
-    background-image: url("images/SignIn-Background.png");
-    width:100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#create {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    position: absolute;
-    text-align: center;
-}
-
+} */
 
 /****** Footer for all pages ******/
 

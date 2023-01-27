@@ -2,6 +2,8 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
+
 }
 
 body {
@@ -83,6 +85,7 @@ nav a {
     background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
     border: solid 1px;
+    font-family: 'Arial Rounded MT Bold';
 }
 
 .intro-img {
