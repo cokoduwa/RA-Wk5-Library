@@ -62,7 +62,7 @@ nav a {
 
 #about {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     margin: 50px auto;
 }
 
@@ -81,23 +81,6 @@ nav a {
     /* padding: 10px; */
     margin: 15px 0;
     text-decoration: underline;
-}
-
-.intro {
-    
-}
-
-.welcome {
-    
-}
-
-.profile-pic {
-    
-  
-}
-
-.profile-pic img {
-   
 }
 
 .information {

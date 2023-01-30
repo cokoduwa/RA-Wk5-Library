@@ -46,6 +46,7 @@ nav a {
 /***** Main Sections ******/
 .sections {
     width: 80%;
+    height: 70%;
     margin: 0 auto;
 
 }
@@ -81,23 +82,6 @@ nav a {
     /* padding: 10px; */
     margin: 15px 0;
     text-decoration: underline;
-}
-
-.intro {
-    
-}
-
-.welcome {
-    
-}
-
-.profile-pic {
-    
-  
-}
-
-.profile-pic img {
-   
 }
 
 .information {

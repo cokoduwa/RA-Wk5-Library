@@ -12,7 +12,7 @@ body {
 
 .back-color {
     background-color: rgb(70, 218, 191, 0.7);
-    height: 100vh;
+    height: 200vh;
 }
 
 .back-img-4 {
@@ -81,23 +81,6 @@ nav a {
     /* padding: 10px; */
     margin: 15px 0;
     text-decoration: underline;
-}
-
-.intro {
-    
-}
-
-.welcome {
-    
-}
-
-.profile-pic {
-    
-  
-}
-
-.profile-pic img {
-   
 }
 
 .information {

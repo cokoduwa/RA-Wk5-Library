@@ -84,20 +84,18 @@ nav a {
 }
 
 .intro {
-    
-}
+    display: flex;
 
-.welcome {
-    
 }
 
 .profile-pic {
+    width:100%;
     
   
 }
 
 .profile-pic img {
-   
+   width:80/5 ;
 }
 
 .information {

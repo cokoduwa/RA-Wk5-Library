@@ -84,14 +84,13 @@ nav a {
 }
 
 .intro {
-    
-}
+    display: flex;
+    justify-content: flex-end;
 
-.welcome {
-    
 }
 
 .profile-pic {
+    width:100%;
     
   
 }

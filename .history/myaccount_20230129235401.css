@@ -83,21 +83,18 @@ nav a {
     text-decoration: underline;
 }
 
-.intro {
-    
-}
-
-.welcome {
-    
-}
-
 .profile-pic {
-    
-  
+    text-align: right;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
 .profile-pic img {
-   
+    width: 10%
 }
 
 .information {

@@ -84,11 +84,13 @@ nav a {
 }
 
 .intro {
-    
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 .welcome {
-    
+    text-align: center;
 }
 
 .profile-pic {

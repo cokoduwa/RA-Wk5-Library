@@ -83,21 +83,12 @@ nav a {
     text-decoration: underline;
 }
 
-.intro {
-    
-}
-
-.welcome {
-    
-}
-
 .profile-pic {
-    
-  
+    text-align: right;
 }
 
 .profile-pic img {
-   
+    width: 10%
 }
 
 .information {
@@ -134,7 +125,7 @@ nav a {
 
 /****** Footer for all pages ******/
 
-footer {
+/* footer {
     text-align: center;
     margin: 0 auto;
     width: 100%;
@@ -153,7 +144,7 @@ footer h3 {
     width: 2.5em;
     height: 2.5em;
     padding: .3em;
-}
+} */
 
 /***** Media Queries *****/
 

@@ -83,12 +83,8 @@ nav a {
     text-decoration: underline;
 }
 
-.intro {
-    
-}
-
-.welcome {
-    
+.info {
+    display: flex;
 }
 
 .profile-pic {

@@ -62,16 +62,16 @@ nav a {
 
 #about {
     text-align: center;
-    padding: 40px;
+    /* padding: 40px; */
     margin: 50px auto;
 }
 
 #about h1 {
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 #about p {
-    padding: 10px auto;
+    /* padding: 10px auto; */
     font-size: 12px;
     line-height: 20px;
 }
@@ -81,23 +81,6 @@ nav a {
     /* padding: 10px; */
     margin: 15px 0;
     text-decoration: underline;
-}
-
-.intro {
-    
-}
-
-.welcome {
-    
-}
-
-.profile-pic {
-    
-  
-}
-
-.profile-pic img {
-   
 }
 
 .information {

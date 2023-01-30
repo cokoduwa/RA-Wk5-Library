@@ -84,11 +84,8 @@ nav a {
 }
 
 .intro {
-    
-}
+    display: flex;
 
-.welcome {
-    
 }
 
 .profile-pic {
