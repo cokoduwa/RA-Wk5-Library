@@ -15,11 +15,11 @@ body {
     height: 100vh;
 }
 
-.back-img-2 {
+.back-img-4 {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/books-plant.png");  
+    background-image: url("images/My\ Account.png");  
 }
 
 /****** Navigation Bar/Menu for all pages ******/
@@ -34,18 +34,26 @@ body {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #4E4D4D;
     font-size: 8px;
 }
 .nav-link {
     border-radius: 5px;
     border: 1px solid black;
-    padding: 6px;
+    padding: 8px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
 }
 
 /***** Main Sections ******/
 .sections {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
 }
@@ -81,6 +89,23 @@ nav a {
     /* padding: 10px; */
     margin: 15px 0;
     text-decoration: underline;
+}
+
+.intro {
+    
+}
+
+.welcome {
+    
+}
+
+.profile-pic {
+    
+  
+}
+
+.profile-pic img {
+   
 }
 
 .information {

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signin.css">
-    <title>Sign In</title>
+    <link rel="stylesheet" href="createprofile.css">
+    <title>Create Profile</title>
 </head>
 <body>
     <div class="back-img-3">
@@ -14,35 +14,38 @@
                 <div class="menu-options">
                     <a href="index.html">Welcome</a>
                     <a href="about.html">About</a>
-                    <a class="nav-link" href="#"><span class="material-symbols-outlined">search </span>Library Catalog</a>
+                    <a class="nav-link" href="#">Library Catalog</a>
                     <a href="#">Events</a>
                     <a href="#">Donate</a>
                     <a href="myaccount.html">My Account</a>
-                    <a class="nav-link" href="#">Sign In</a>
+                    <a class="nav-link" href="signin.html">Sign In</a>
                 </div>
             </nav>
         
             <main>
                 <div class="sections">
+        
                     <section id="create" class="card">
                         <img id="logo" src="images/BPLcanvaLogo.jpeg" alt="BPL Logo">
-          
-                        <h1 id="message">Welcome Back to BPL</h1>
+                        
+                        <h1>Welcome to The Beatrice Public Library</h1>
+                        <p>Please complete the form below to set up your library account.</p>
 
                         <form action="">
+                            <label for="fullname">First and Last Name:</label><br>
+                            <input type="text" name="fullname" id="fullname" required><br>
                             <label for="email">Email Address:</label><br>
                             <input type="email" name="email" id="email" required><br>
                             <label for="">Password:</label><br>
                             <input type="password" name="password" id="password" required><br>
                             <label for="signup"></label>
-                            <input type="submit" name="signup" value="Sign In" id="signup">  
+                            <input type="submit" name="signup" value="Sign Up" id="signup">
                         </form>
-                    
 
                         <div class="sign-up">
-                            
-                            <p>Sign in With:</p>
-    
+                          
+                            <p>Sign Up With:</p>
+
                             <div class="socials">
                                 <img src="images/facebook.png" alt="">
                                 <img src="images/apple.png" alt="">
@@ -50,13 +53,13 @@
                             </div>
                             
                         </div>
-                            
-                        <p class="member">Not yet a member? <a href="createprofile.html">Sign Up Here</a></p>
-        
+                        
+                        <p class="member">Already have an account? <a href="signin.html">Sign In Here</a></p>
+
                     </section>
-                    
-                </div>
-            
+
+                </div> 
+        
             </main>
             
             <footer>
