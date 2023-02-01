@@ -129,7 +129,6 @@ nav a {
     border-radius: 30px;
     padding: 7px;
     width: 30%;
-    background-color: rgb(70, 218, 191, 0.6);
 }
 
 ul {
@@ -153,17 +152,6 @@ ul {
     border: 1px solid black;
     padding: 15px;
     font-size: 14px;
-}
-
-.side-bar p:hover {
-    cursor: pointer;
-    background-color: rgb(70, 218, 191, 0.6);
-    
-}
-
-.material-symbols-outlined:hover {
-    cursor: pointer;
-
 }
 /****** Footer for all pages ******/
 

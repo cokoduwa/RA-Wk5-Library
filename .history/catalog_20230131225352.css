@@ -154,17 +154,6 @@ ul {
     padding: 15px;
     font-size: 14px;
 }
-
-.side-bar p:hover {
-    cursor: pointer;
-    background-color: rgb(70, 218, 191, 0.6);
-    
-}
-
-.material-symbols-outlined:hover {
-    cursor: pointer;
-
-}
 /****** Footer for all pages ******/
 
 footer {

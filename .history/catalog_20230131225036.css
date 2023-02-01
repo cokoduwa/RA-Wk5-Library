@@ -117,19 +117,15 @@ nav a {
 }
 
 .search {
-    margin: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 #search-bar {
-    
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 7px;
+    border-radius: 10px;
+    padding: 10px;
     width: 30%;
-    background-color: rgb(70, 218, 191, 0.6);
 }
 
 ul {
@@ -153,17 +149,6 @@ ul {
     border: 1px solid black;
     padding: 15px;
     font-size: 14px;
-}
-
-.side-bar p:hover {
-    cursor: pointer;
-    background-color: rgb(70, 218, 191, 0.6);
-    
-}
-
-.material-symbols-outlined:hover {
-    cursor: pointer;
-
 }
 /****** Footer for all pages ******/
 
