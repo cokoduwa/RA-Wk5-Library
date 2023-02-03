@@ -15,11 +15,11 @@ body {
     height: 100vh;
 }
 
-.back-img-4 {
+.back-img-5 {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/My\ Account.png");  
+    background-image: url("images/Catalog.png");  
 }
 
 /****** Navigation Bar/Menu for all pages ******/
@@ -69,42 +69,15 @@ nav a {
 
 /****** Section ******/
 
-#about {
+#catalog {
     text-align: center;
     padding: 40px;
     margin: 50px auto;
 }
 
-#about h1 {
-    padding: 10px;
-}
-
-#about p {
-    padding: 10px auto;
-    font-size: 10px;
-    line-height: 20px;
-}
-
-#about h2 {
-    font-size: 14px;
-    /* padding: 10px; */
-    margin: 15px 0;
-    text-decoration: underline;
-}
-
-
-.welcome h1{
-    font-size:18px ;
-    
-}
-
-/* .profile-pic {
-    
-  
-} */
-
-.profile-pic img {
-   width:30%
+#catalog h1 {
+    padding: 5px;
+    font-size: 18px;
 }
 
 .information {
@@ -113,7 +86,7 @@ nav a {
     font-size: 10px;
 }
 
-#about button {
+#catalog button {
     font-size: 12px;
     padding: 5px;
     margin: 10px auto;
@@ -138,8 +111,61 @@ nav a {
     width: 100%;
 }
 
+.search {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+}
 
+#search-bar {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    /* width: 100%; */
+    background-color: rgb(70, 218, 191, 0.6);
+}
 
+ul {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    text-decoration: underline;
+}
+
+.side-bar {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px; 
+
+}
+
+.side-bar p {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.side-bar p:hover {
+    cursor: pointer;
+    background-color: rgb(70, 218, 191, 0.6);
+    
+}
+
+textarea {
+    resize: none;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+
+}
 /****** Footer for all pages ******/
 
 footer {
@@ -170,12 +196,8 @@ footer h3 {
     nav a {
         font-size: 14px;
     }
-
-    #about p {
-        font-size: 16px;
-    }
     
-    #about h2 {
+    #information h2 {
         font-size: 18px;
     }
 
@@ -183,19 +205,33 @@ footer h3 {
         font-size: 16px;
     }
 
-    .welcome h1{
-        font-size:18px ;
-        
+    .search {
+        font-size: 16px;
     }
+
+    #search-bar {
+        border-radius: 30px;
+        padding: 7px;
+        width: 30%;
+    }
+
+    .side-bar p {
+        font-size: 14px;
+    }
+
+    #catalog h1 {
+        font-size: 24px;
+    }
+
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    #about p {
+    /* #catalog p {
         font-size: 14px;
-    }
+    } */
     
     .information h2 {
         font-size: 18px;
@@ -206,7 +242,7 @@ footer h3 {
         font-size: 14px;
     }
 
-    #about button {
+    #catalog button {
         font-size: 14px;
     }
 
@@ -217,12 +253,4 @@ footer h3 {
         left: -25px;
     }
 
-    .welcome h1{
-        font-size:20px ;
-        
-    }
-
-    .profile-pic img {
-        width:20%;
-    }
 }
