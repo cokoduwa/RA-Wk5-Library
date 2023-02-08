@@ -176,7 +176,7 @@ footer h3 {
 
     .search {
         font-size: 16px;
-
+        text-align: center;
     }
 
     #search-bar {
@@ -186,12 +186,6 @@ footer h3 {
         font-size: 16px;
     }
 
-    .drop-menu {
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-
     .side-bar {
         margin: 4px;
     }
@@ -199,11 +193,6 @@ footer h3 {
     .side-bar p {
         font-size: 12px;
         padding: 10px;
-    }
-
-    .ad-search {
-        font-size: 12px;
-        text-decoration: underline;
     }
 
     #catalog h1 {
