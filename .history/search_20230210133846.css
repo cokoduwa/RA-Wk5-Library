@@ -126,6 +126,19 @@ input {
     background-size: 20px;
 }
 
+.search-icon {
+    position: relative;
+    width:240px;
+}
+
+.search-icon input {
+
+}
+
+.search-icon input img {
+
+}
+
 .side-bar {
     display: flex;
     justify-content: space-evenly;

@@ -121,9 +121,22 @@ nav a {
 
 input {
     background-image: url("images/search.png");
-    background-position: left;
+    background-position: left top;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: contain;
+}
+
+.search-icon {
+    position: relative;
+    width:240px;
+}
+
+.search-icon input {
+
+}
+
+.search-icon input img {
+
 }
 
 .side-bar {

@@ -119,11 +119,9 @@ nav a {
     background-color: rgb(70, 218, 191, 0.6);
 }
 
-input {
-    background-image: url("images/search.png");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 20px;
+.search-icon {
+    position: relative;
+    width:240px;
 }
 
 .side-bar {

@@ -123,7 +123,20 @@ input {
     background-image: url("images/search.png");
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 10px;
+}
+
+.search-icon {
+    position: relative;
+    width:240px;
+}
+
+.search-icon input {
+
+}
+
+.search-icon input img {
+
 }
 
 .side-bar {

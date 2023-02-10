@@ -124,6 +124,20 @@ input {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 20px;
+    padding: 0 20px;
+}
+
+.search-icon {
+    position: relative;
+    width:240px;
+}
+
+.search-icon input {
+
+}
+
+.search-icon input img {
+
 }
 
 .side-bar {
