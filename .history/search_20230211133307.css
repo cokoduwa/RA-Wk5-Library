@@ -137,8 +137,11 @@ input {
 
 .drop-menu {
     position: absolute;
+    visibility: hidden;
 }
-
+.drop-menu:hover{
+    visibility: visible;
+}
 
 .side-bar {
     display: flex;

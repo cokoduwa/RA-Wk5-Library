@@ -137,8 +137,8 @@ input {
 
 .drop-menu {
     position: absolute;
+    visibility: hidden;
 }
-
 
 .side-bar {
     display: flex;

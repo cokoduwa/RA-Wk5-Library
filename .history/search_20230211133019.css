@@ -132,13 +132,17 @@ input {
 
 .dropdown {
     position: relative;
+    /* display: inline-block; */
     font-size: 12px;
+}
+.drop-menu p {
+    /* display: block; */
 }
 
 .drop-menu {
+    display: none;
     position: absolute;
 }
-
 
 .side-bar {
     display: flex;

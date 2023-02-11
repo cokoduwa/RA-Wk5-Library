@@ -126,19 +126,22 @@ input {
     background-size: 20px;
 }
 
-.drop-arrow {
-    font-size: 12px;
-}
-
-.dropdown {
+/* .dropdown {
     position: relative;
-    font-size: 12px;
+    display: inline-block;
+}
+.drop-menu p {
+    padding: 12px 6px;
+    display: block;
 }
 
 .drop-menu {
+    display: none;
     position: absolute;
-}
-
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} */
 
 .side-bar {
     display: flex;

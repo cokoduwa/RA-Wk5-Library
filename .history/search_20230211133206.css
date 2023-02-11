@@ -136,9 +136,10 @@ input {
 }
 
 .drop-menu {
+    display: none;
     position: absolute;
+    visibility: hidden;
 }
-
 
 .side-bar {
     display: flex;
