@@ -126,6 +126,9 @@ input {
     background-size: 20px;
 }
 
+/* input {
+    background: url("images/search.png");
+} */
 
 .side-bar {
     display: flex;
