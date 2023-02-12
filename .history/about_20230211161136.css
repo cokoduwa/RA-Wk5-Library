@@ -96,12 +96,6 @@ nav a {
     background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
     border: solid 1px;
-    text-decoration: none;
-}
-
-#about button a {
-    text-decoration: none;
-    color: #000;
 }
 
 #logo {

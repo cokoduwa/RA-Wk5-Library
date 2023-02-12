@@ -11,15 +11,15 @@ body {
 }
 
 .back-color {
-    background-color: rgb(70, 218, 191, 0.7);
+    background-color: rgb(70, 218, 191, 0.5);
     height: 100vh;
 }
 
-.back-img-2 {
+.back-img-4 {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/books-plant.png");  
+    background-image: url("images/My\ Account.png");  
 }
 
 /****** Navigation Bar/Menu for all pages ******/
@@ -34,8 +34,8 @@ body {
 
 nav a {
     text-decoration: none;
-    color: #000;
     font-size: 8px;
+    color: #000;
 }
 .nav-link {
     border-radius: 5px;
@@ -43,9 +43,18 @@ nav a {
     padding: 6px;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 12px;
+}
+
 /***** Main Sections ******/
 .sections {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
 }
@@ -64,7 +73,7 @@ nav a {
     text-align: center;
     padding: 40px;
     margin: 50px auto;
-    position: relative;
+    /* display: flex; */
 }
 
 #about h1 {
@@ -73,7 +82,7 @@ nav a {
 
 #about p {
     padding: 10px auto;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 20px;
 }
 
@@ -84,24 +93,40 @@ nav a {
     text-decoration: underline;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome {
+    margin: 0 auto;
+}
+.welcome h1{
+    font-size:18px;
+}
+
+
+.profile-pic img {
+   width:50%
+}
+
 .information {
     text-align: left;
-    padding: 15px;
+    padding: 10px 20px;
+    font-size: 10px;
 }
 
 #about button {
     font-size: 12px;
     padding: 5px;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
     border: solid 1px;
-    text-decoration: none;
 }
 
 #about button a {
     text-decoration: none;
-    color: #000;
 }
 
 #logo {
@@ -128,8 +153,9 @@ footer {
     text-align: center;
     margin: 0 auto;
     width: 100%;
-    position: fixed;
-    bottom: 0;   
+    position: absolute;
+    bottom: 0;
+    
 }
 
 footer h3 {
@@ -160,6 +186,15 @@ footer h3 {
         font-size: 18px;
     }
 
+    .information {
+        font-size: 16px;
+    }
+
+    .welcome h1{
+        font-size:18px ;
+        
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -169,8 +204,13 @@ footer h3 {
         font-size: 14px;
     }
     
-    #about h2 {
-        font-size: 24px;
+    .information h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    li {
+        font-size: 14px;
     }
 
     #about button {
@@ -183,4 +223,10 @@ footer h3 {
         top: -25px;
         left: -25px;
     }
+
+    .welcome h1{
+        font-size:20px ;
+        
+    }
+
 }
