@@ -15,11 +15,11 @@ body {
     height: 100vh;
 }
 
-.back-img-6 {
+.back-img-2 {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url("images/Individual-Catalog.png");  
+    background-image: url("images/books-plant.png");  
 }
 
 /****** Navigation Bar/Menu for all pages ******/
@@ -112,16 +112,14 @@ section button {
     align-items: center;
 }
 
-.ratings p {
-    font-size: 14px;
-}
-
-.wedding {
+.shoes {
+    /* width: 80px;
+    height: 80px; */
     width: 100px;
     padding: 10px;
     position: absolute;
-    bottom: -15px;
-    right: -15px;
+    bottom: 25px;
+    right: 25px;
 }
 
 
