@@ -60,7 +60,7 @@ nav a {
 
 /****** Section ******/
 
-/* section {
+section {
     text-align: center;
     padding: 10px 30px;
     margin: 50px auto;
@@ -69,17 +69,8 @@ nav a {
 section p {
     padding: 10px auto;
     font-size: 12px;
-} */
-
-section {
-    text-align: center;
-    padding: 0 60px;
-}
-
-section p {
-    padding: 10px auto;
-    font-size: 12px;
-    margin: 10px 0;
+    /* line-height: 20px; */
+    margin: 20px;
 }
 
 .information {
@@ -126,7 +117,7 @@ section button {
     font-size: 14px;
 }
 
-.shoes {
+.wedding {
     width: 100px;
     padding: 10px;
     position: absolute;
