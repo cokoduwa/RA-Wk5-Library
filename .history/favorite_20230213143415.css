@@ -12,9 +12,11 @@ body {
 
 .back-color {
     background-color: rgb(70, 218, 191, 0.7);
+    height: 100%;
 }
 
 .back-img-6 {
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-image: url("images/Individual-Catalog.png");  
@@ -64,6 +66,17 @@ nav a {
 
 /****** Section ******/
 
+/* section {
+    text-align: center;
+    padding: 10px 30px;
+    margin: 50px auto;
+}
+
+section p {
+    padding: 10px auto;
+    font-size: 12px;
+} */
+
 section {
     text-align: center;
     padding: 20px 10px;
@@ -88,17 +101,9 @@ section button {
     font-size: 12px;
     padding: 5px;
     margin: 20px auto;
+    background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
     border: solid 1px;
-}
-
-.remove {
-    background-color: rgba(224, 224, 224, 0.75);
-}
-
-.check {
-    background-color: rgb(70, 218, 191, 0.7);;
-
 }
 
 #logo {
@@ -127,10 +132,6 @@ section button {
     font-size: 14px;
 }
 
-.star {
-    color: #46DABF;
-}
-
 .shoes {
     width: 100px;
     padding: 10px;
@@ -146,6 +147,7 @@ footer {
     text-align: center;
     margin: 0 auto;
     width: 100%;
+    /* position: absolute; */
     bottom: 0;
     
 }
@@ -166,16 +168,8 @@ footer h3 {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .back-color {
-        height: 100%;
-    }
-    
     nav a {
         font-size: 14px;
-    }
-
-    section {
-        padding: 30px 10px;
     }
 
     section p {
@@ -183,15 +177,11 @@ footer h3 {
     }
 
     .information {
-        padding: 90px;
+        padding: 50px;
     }
 
     .information h3 {
         font-size: 18px;
-    }
-
-    .ratings{
-        padding: 20px 0;
     }
 
     #logo {
@@ -205,7 +195,8 @@ footer h3 {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    section p {
+
+  section p {
         font-size: 14px;
     }
 

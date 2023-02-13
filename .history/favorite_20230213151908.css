@@ -88,17 +88,9 @@ section button {
     font-size: 12px;
     padding: 5px;
     margin: 20px auto;
+    background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
     border: solid 1px;
-}
-
-.remove {
-    background-color: rgba(224, 224, 224, 0.75);
-}
-
-.check {
-    background-color: rgb(70, 218, 191, 0.7);;
-
 }
 
 #logo {
@@ -201,10 +193,18 @@ footer h3 {
         left: -25px;
     }
     
+    footer {
+        position: absolute;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+    .back-color {
+        height: 100vh;
+    }
+
     section p {
         font-size: 14px;
     }

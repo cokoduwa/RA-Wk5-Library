@@ -12,9 +12,11 @@ body {
 
 .back-color {
     background-color: rgb(70, 218, 191, 0.7);
+    height: 100vh;
 }
 
 .back-img-6 {
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-image: url("images/Individual-Catalog.png");  
@@ -88,17 +90,9 @@ section button {
     font-size: 12px;
     padding: 5px;
     margin: 20px auto;
+    background-color: rgb(70, 218, 191, 0.6);
     border-radius: 5px;
     border: solid 1px;
-}
-
-.remove {
-    background-color: rgba(224, 224, 224, 0.75);
-}
-
-.check {
-    background-color: rgb(70, 218, 191, 0.7);;
-
 }
 
 #logo {
@@ -166,10 +160,6 @@ footer h3 {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .back-color {
-        height: 100%;
-    }
-    
     nav a {
         font-size: 14px;
     }
@@ -201,11 +191,15 @@ footer h3 {
         left: -25px;
     }
     
+    footer {
+        position: absolute;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    section p {
+
+  section p {
         font-size: 14px;
     }
 

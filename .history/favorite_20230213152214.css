@@ -88,17 +88,9 @@ section button {
     font-size: 12px;
     padding: 5px;
     margin: 20px auto;
+    background-color: rgba(224, 224, 224, 0.75);
     border-radius: 5px;
     border: solid 1px;
-}
-
-.remove {
-    background-color: rgba(224, 224, 224, 0.75);
-}
-
-.check {
-    background-color: rgb(70, 218, 191, 0.7);;
-
 }
 
 #logo {
